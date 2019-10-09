@@ -4,9 +4,9 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 export default function FluidJumbotron () {
     return (
         <Jumbotron fluid>
-            <h1> Fluid Jumbotron </h1>
+            <h1> Jae-yeon Yoon </h1>
             <p>
-                Fluid Jumbotrons occupy the entire horizontal space of its parent.
+                Software developer in training.
             </p>
         </Jumbotron>
     );
