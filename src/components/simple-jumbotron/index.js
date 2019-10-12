@@ -1,5 +1,6 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import SimpleToggle from '../simple-toggle';
 
 export default function FluidJumbotron () {
     return (
@@ -8,6 +9,8 @@ export default function FluidJumbotron () {
             <p>
                 Software developer in training.
             </p>
+            <br/>
+            <SimpleToggle/>
         </Jumbotron>
     );
 }

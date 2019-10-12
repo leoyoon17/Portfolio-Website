@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import SimpleClock from '../simple-clock'
+
 
 export default function NavBar() {
     
@@ -19,9 +19,6 @@ export default function NavBar() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav>
-                    <SimpleClock />
-                </Nav>
             </Navbar.Collapse>
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                 <Nav className="justify-content-end">
